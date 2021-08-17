@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{92B142E7-6964-4938-B938-8811962C07FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TibiaTrainer", "src\TibiaTrainer\TibiaTrainer.csproj", "{FD730E7C-7123-4294-BAAB-CF4B6D3AB79E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD730E7C-7123-4294-BAAB-CF4B6D3AB79E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD730E7C-7123-4294-BAAB-CF4B6D3AB79E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD730E7C-7123-4294-BAAB-CF4B6D3AB79E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD730E7C-7123-4294-BAAB-CF4B6D3AB79E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FD730E7C-7123-4294-BAAB-CF4B6D3AB79E} = {92B142E7-6964-4938-B938-8811962C07FB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84A69235-46DA-47D4-87A4-33405B5CD73C}
+	EndGlobalSection
+EndGlobal
