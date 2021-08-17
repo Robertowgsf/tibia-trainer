@@ -9,10 +9,10 @@ namespace TibiaTrainer
             return Process.GetProcessesByName("client")[0];
         }
 
-        public static void SetTibiaInForeground()
-        {
-            WinApi.PreviousProccess = Process.GetCurrentProcess();
-            SetForegroundWindow(GetTibiaProcess().MainWindowHandle);
-        }
+        //public static void SetTibiaInForeground()
+        //{
+        //    WinApi.PreviousProccess = Process.GetCurrentProcess();
+        //    SetForegroundWindow(GetTibiaProcess().MainWindowHandle);
+        //}
     }
 }
